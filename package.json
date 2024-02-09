@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "private": "true",
   "scripts": {
     "dev": "npx hardhat watch ci",
     "build": "npx hardhat compile",
@@ -13,5 +14,9 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
     "hardhat": "^2.19.5"
+  },
+  "dependencies": {
+    "hardhat-watcher": "^2.5.0",
+    "save-dev": "^0.0.1-security"
   }
 }
